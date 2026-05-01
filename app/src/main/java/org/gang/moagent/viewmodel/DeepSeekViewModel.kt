@@ -34,7 +34,7 @@ data class ChatMessageData(
 // 2. ViewModel: 비즈니스 로직 및 API 통신
 class DeepSeekViewModel : ViewModel() {
     private val config = OpenAIConfig(
-        token = "sk-ea7c399661a1443fb6d5c9ee7097b0a6",
+        token = "",
         host = OpenAIHost("https://api.deepseek.com"),
         timeout = Timeout(socket = 60.seconds)
     )
